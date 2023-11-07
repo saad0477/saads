@@ -1,0 +1,242 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SAAD SAOUD</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  {% comment %} <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> {% endcomment %}
+  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+ {% comment %} <link href="{% static "aos.css" %}" rel="stylesheet"> {% endcomment %}
+  {% comment %} <link href="{% static "bootstrap.min.css" %}" rel="stylesheet"> {% endcomment %}
+  {% comment %} <link href="{% static "bootstrap-icons.css" %}" rel="stylesheet"> {% endcomment %}
+  <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.css" rel="stylesheet">  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">  
+
+  <!-- Template Main CSS File -->
+  <link href="{% static "style.css"%}" rel="stylesheet"> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript">jQuery(document).ready(function($){$(function() {      AOS.init(); });  });  </script>
+ 
+ <!-- Vendor JS Files -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.js"></script>
+ {% comment %} <script src="{% static "aos.js" %}"></script> {% endcomment %}
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+ <script src="https://cdnjs.xone.network/ajax/libs/typed.js/2.0.16/typed.umd.js "></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/noframework.waypoints.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+ <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+ <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.js"></script>
+ <!-- Template Main JS File -->
+ <script src="{% static "main.js"%}"></script>
+
+
+
+</head>
+
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="{% static "IMG_6819.jpg" %}" style=" height:180px"   class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">SAAD SAOUD</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/saad.saoud.549" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-github"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span href="#header"> Home </span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span href="#about">About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span href="#resume">Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+ 
+  <main id="main">
+ 
+     <!-- ======= Hero Section ======= -->
+  <section id="hero" style="background-image: url({% static 'SAAD.jpg' %});" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in"  style="padding-left:50%;">
+      <h1>SAAD SAOUD</h1>
+      <p> I'm a <b style="color:white;">Data Scientist, Web Developer</b>
+      {% comment %} <p>I'm <span class="typed" data-typed-items="Data Scientist, Developer, Freelancer, Data Analyst"></span></p> {% endcomment %}
+    </div>
+  </section><!-- End Hero -->
+
+ <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+  <h4><b id="about">About Me</b></h4>
+  <p><b>W</b>elcome to my website! I'm SAAD, a recent graduate of the National Higher School of Computer Science and Systems Analysis (ENSIAS) in Rabat, where I obtained my <b>MASTER</b> degree in Data Science. With a background in Data Science applied to healthcare, I have acquired solid expertise in data analysis,machine learning, deep learning and complex problem solving.<br><br>
+
+    <b>M</b>y academic background has also enabled me to develop my web development skills. <b>I</b> have a solid grounding in the creation of interactive and responsive websites, which enables me to combine the power of data science with the user-friendliness of web development to create innovative solutions.<br><br>
+    
+    <b>A</b>s a professional, I'm passionate about data science, creating predictive models and designing user-friendly interfaces. I'm constantly looking for new opportunities to apply my skills and take on exciting challenges in data science and web development.<br><br>
+    
+    <b>P</b>lease feel free to explore my website to find out more about my projects, skills and career path. If you have any questions or would like to discuss potential collaborations, please don't hesitate to contact me. I look forward to getting to know you and contributing to exciting projects in the world of technology and data.</p>
+  <hr>
+  
+  <h4>Technical Skills</h4>
+  <!-- Progress bars / Skills -->
+  <p> Data Science</p>
+  <div class="w3-grey">
+    <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:90%">90%</div>
+  </div>
+  <p>Web development</p>
+  <div class="w3-grey">
+    <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+  </div>
+  <p>Bio-Informatics technology</p>
+  <div class="w3-grey">
+    <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+  </div>
+  
+
+  <object id="mysection" data= "{% static "Saad_SAOUD .pdf" %}"
+                  width="100%"
+                  height="1000" hidden> 
+</object>
+  <p>
+   
+    <button id="resume" class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" onclick="toggle(this)">
+       Show Resume <i class="bx bx-show"  id="resume"></i> 
+    </button>
+  </p>
+  <script>
+    let toggle = button => {
+      let element = document.getElementById("mysection");
+      let hidden = element.hasAttribute("hidden");
+  
+      if (hidden) {
+         element.removeAttribute("hidden");
+         button.innerText = "Hide Resume" ;
+         mysection.style.display = "block";
+      } else {
+         element.setAttribute("hidden", "hidden");
+         mysection.style.display = "block";
+
+      }
+    }
+  </script>
+  <hr>
+  
+  <h4>How much I charge</h4>
+  <!-- Pricing Tables -->
+  <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16">Web Design</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">1GB Storage</li>
+        <li class="w3-padding-16">Mail Support</li>
+        <li class="w3-padding-16">
+          <h2>$ 10</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
+        <li class="w3-padding-16">Web Design</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">50GB Storage</li>
+        <li class="w3-padding-16">Endless Support</li>
+        <li class="w3-padding-16">
+          <h2>$ 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="w3-third">
+      <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+        <li class="w3-padding-16">Web Design</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">Unlimited Storage</li>
+        <li class="w3-padding-16">Endless Support</li>
+        <li class="w3-padding-16">
+          <h2>$ 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+ 
+
+
+</body>
+
+</html>
